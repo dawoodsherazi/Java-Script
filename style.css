@@ -1,0 +1,33 @@
+.container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  align-self: center;
+  width:100px;
+  float:right ;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+#p1{
+    display: block;
+}
