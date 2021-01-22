@@ -1,33 +1,80 @@
-.container{
-    width:100%;
+.container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     align-self: center;
+    align-content: center;
     margin-top: 10%;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  display: flex;
-  align-self: center;
-  width:100px;
-  float:right ;
-  text-align: center;
+button[type=submit] {
+    background-color:lightseagreen ;
+    color: white;
+    /*  display: flex;*/
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    float: center;
+    margin-left: 23%;
+
 }
+form{
+    width:30%;
+}
+
 input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+    width: 100%;
+    padding: 10px;
+    padding-right:30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
 }
-#p1{
+
+#p1 {
     display: block;
+}
+
+.navbar {
+
+    background-color: black;
+}
+
+
+.navbar-nav {
+
+    flex-direction: row;
+    /*    background-color: aquamarine;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+h3{
+    justify-content: center;
+    align-self: center;
+    color:lightseagreen; 
+}
+
+li {
+    display:inline-block;
+    flex-direction: row;
+    padding: 10px;
+    text-decoration-color: floralwhite;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: lightseagreen;
 }
